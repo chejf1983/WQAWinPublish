@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateDescriptor baseUrl="">
+  <entry targetMediaFileId="27" updatableVersionMin="" updatableVersionMax="" fileName="水质测试软件_windows_1_0_0_1.exe" newVersion="1.0.0.1" newMediaFileId="27" fileSize="44147712" bundledJre="windows-x86-1.8.0_121" archive="false">
+    <comment language="en" />
+  </entry>
+</updateDescriptor>
+

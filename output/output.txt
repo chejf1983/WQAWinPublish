@@ -1,0 +1,3 @@
+# List of generated media files. The columns are tab-separated:
+# id | media file type | display name | media file path
+27	windows	Windows	D:\code\nahon\singlebranch6.0\WQA_OSA\Publish\output\水质测试软件_windows_1_0_0_1.exe

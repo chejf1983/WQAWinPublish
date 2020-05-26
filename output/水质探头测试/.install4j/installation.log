@@ -1,0 +1,426 @@
+[INFO] logger started at Mon Dec 03 10:37:26 CST 2018
+[INFO] executable name: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质测试软件_windows_0_0_3_x.exe
+[INFO] install4j version: 5.1.15 (build 5739)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=D:\code\nahon\singlebranch6.0\WQA_OSA...
+sun.boot.library.path=c:\users\chejf\appdata\local\temp\e4j...
+exe4j.semaphoreName=Local\d:_code_nahon_singlebranch6.0_w...
+java.vm.version=25.121-b13
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=CN
+sun.os.patch.level=
+install4j.exeDir=D:\code\nahon\singlebranch6.0\WQA_OSA...
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\chejf\AppData\Local\Temp\e4j...
+java.runtime.version=1.8.0_121-b13
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\users\chejf\appdata\local\temp\e4j...
+os.arch=x86
+java.io.tmpdir=C:\Users\chejf\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\chejf\AppData\Local\Temp\e4j...
+os.name=Windows 10
+sun.java2d.noddraw=true
+sun.jnu.encoding=GBK
+java.library.path=C:\ProgramData\Oracle\Java\javapath;C...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot Client Compiler
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Users\chejf
+user.timezone=Asia/Shanghai
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=GBK
+user.name=chejf
+java.class.path=C:\Users\chejf\AppData\Local\Temp\e4j...
+java.vm.specification.version=1.8
+sun.arch.data.model=32
+java.home=c:\users\chejf\appdata\local\temp\e4j...
+sun.java.command=D:\code\nahon\singlebranch6.0\WQA_OSA...
+exe4j.launchName=D:\code\nahon\singlebranch6.0\WQA_OSA...
+java.specification.vendor=Oracle Corporation
+user.language=zh
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=37048047
+java.version=1.8.0_121
+java.ext.dirs=c:\users\chejf\appdata\local\temp\e4j...
+sun.boot.class.path=c:\users\chejf\appdata\local\temp\e4j...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\chejf\AppData\Local\Temp\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property failIfNotRootUnix: false
+       Property failIfNotObtainedWin: true
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalWin: false
+       Property obtainIfNormalMac: false
+       Property obtainIfAdminMac: false
+       Property failIfNotObtainedMac: true
+       Property allRequested: false
+       Property rollbackSupported: false
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 3959 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       Variable changed: sys.installationDir=D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property file: null
+       Property overwrite: true
+       Property excludedVariables: [sys.installationDir]
+       Property rollbackSupported: true
+       Response file D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\response.varfile does not exist
+       Execute action successful after 18 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=水质测试软件[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property installRuntime: true
+       Property checkFreeSpace: true
+       Property validateApplicationId: false
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property updateBundledJre: true
+       Property triggerReboot: true
+       Property showFileNames: true
+       Property fileFilterScript: null
+       Property delay: false
+       Property directoryResolverScript: null
+       Property rollbackSupported: true
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\awt.dll; size: 1182784 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:12 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\bci.dll; size: 15424 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\client\jvm.dll; size: 3864128 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\client\Xusage.txt; size: 1423 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\dcpr.dll; size: 142912 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\decora_sse.dll; size: 64064 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\deploy.dll; size: 453184 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\dtplugin\deployJava1.dll; size: 826432 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\dtplugin\npdeployJava1.dll; size: 908352 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\dt_shmem.dll; size: 25152 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\dt_socket.dll; size: 21568 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\eula.dll; size: 109120 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\fontmanager.dll; size: 223296 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\fxplugins.dll; size: 152640 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:13 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\glass.dll; size: 200768 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\glib-lite.dll; size: 400960 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\gstreamer-lite.dll; size: 514624 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\hprof.dll; size: 132160 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\instrument.dll; size: 115776 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\j2pcsc.dll; size: 16448 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\j2pkcs11.dll; size: 51264 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jaas_nt.dll; size: 19520 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jabswitch.exe; size: 30784 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\java-rmi.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\java.dll; size: 127040 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\java.exe; size: 191040 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\JavaAccessBridge-32.dll; size: 128064 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:12 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\javacpl.cpl; size: 160256 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:13 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\javacpl.exe; size: 70208 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\javafx_font.dll; size: 57408 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\javafx_font_t2k.dll; size: 446528 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\javafx_iio.dll; size: 126016 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\javaw.exe; size: 191552 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\javaws.exe; size: 268864 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\java_crw_demo.dll; size: 23616 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jawt.dll; size: 13888 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\JAWTAccessBridge-32.dll; size: 14912 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:12 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jdwp.dll; size: 164416 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:13 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jfr.dll; size: 22592 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jfxmedia.dll; size: 115264 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jfxwebkit.dll; size: 31896640 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:14 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jjs.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jli.dll; size: 158784 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jp2iexp.dll; size: 207424 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jp2launcher.exe; size: 83008 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jp2native.dll; size: 19008 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jp2ssv.dll; size: 186944 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jpeg.dll; size: 145984 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jsdt.dll; size: 16448 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jsound.dll; size: 30784 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\jsoundds.dll; size: 27712 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\kcms.dll; size: 178240 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\keytool.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\kinit.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\klist.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\ktab.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\lcms.dll; size: 185920 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:15 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\management.dll; size: 33344 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\mlib_image.dll; size: 574528 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\msvcp120.dll; size: 455328 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\msvcr100.dll; size: 773968 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\msvcr120.dll; size: 970912 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\net.dll; size: 80960 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\nio.dll; size: 51264 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\npt.dll; size: 17472 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\orbd.exe; size: 16448 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\pack200.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\plugin2\msvcr100.dll; size: 773968 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\plugin2\npjp2.dll; size: 172096 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\policytool.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\prism_common.dll; size: 52800 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\prism_d3d.dll; size: 116288 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\prism_sw.dll; size: 86592 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\resource.dll; size: 14912 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\rmid.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\rmiregistry.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\servertool.exe; size: 15936 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\splashscreen.dll; size: 177216 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\ssv.dll; size: 473152 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\ssvagent.exe; size: 52800 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\sunec.dll; size: 123968 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\sunmscapi.dll; size: 25664 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\t2k.dll; size: 195136 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\tnameserv.exe; size: 16448 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\unpack.dll; size: 65600 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\unpack200.exe; size: 159296 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\verify.dll; size: 39488 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\w2k_lsa_auth.dll; size: 21568 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\win32com.dll; size: 27648 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\WindowsAccessBridge-32.dll; size: 97856 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:12 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\wsdetect.dll; size: 163904 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:15 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\bin\zip.dll; size: 69696 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\COPYRIGHT; size: 3244 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:12 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\accessibility.properties; size: 149 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:15 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\calendars.properties; size: 1378 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\charsets.jar; size: 3036922 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:19 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\classlist; size: 84355 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:15 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\cmm\CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\cmm\GRAY.pf; size: 632 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\cmm\LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\cmm\PYCC.pf; size: 274474 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\cmm\sRGB.pf; size: 3144 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\comm.jar; size: 28043 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:16 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\currency.data; size: 4122 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\ffjcext.zip; size: 14156 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages.properties; size: 2860 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_de.properties; size: 3306 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_es.properties; size: 3600 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_it.properties; size: 3223 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_ko.properties; size: 5712 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_pt_BR.properties; size: 3285 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_sv.properties; size: 3409 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\splash.gif; size: 8590 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\splash@2x.gif; size: 15276 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\splash_11-lic.gif; size: 7805 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy\splash_11@2x-lic.gif; size: 12250 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\deploy.jar; size: 5014514 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:19 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\access-bridge-32.jar; size: 186936 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:22 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\cldrdata.jar; size: 3837830 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:23 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\dnsns.jar; size: 8150 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\jaccess.jar; size: 43839 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:24 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\jfxrt.jar; size: 18185779 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\localedata.jar; size: 2204781 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\meta-index; size: 1511 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:16 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\nashorn.jar; size: 1981868 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:25 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\sunec.jar; size: 42154 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:17 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\sunjce_provider.jar; size: 280161 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\sunmscapi.jar; size: 32699 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\sunpkcs11.jar; size: 251327 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\ext\zipfs.jar; size: 67458 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:25 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\flavormap.properties; size: 3928 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:17 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fontconfig.bfc; size: 3770 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fontconfig.properties.src; size: 10568 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:18 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\fonts\LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\i386\jvm.cfg; size: 623 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\javafx.properties; size: 56 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\javaws.jar; size: 940401 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:19 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\javax.comm.properties; size: 467 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:18 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\jce.jar; size: 116446 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\jfr\default.jfc; size: 20109 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\jfr\profile.jfc; size: 20065 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\jfr.jar; size: 558771 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:19 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\jfxswt.jar; size: 33471 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:20 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\jsse.jar; size: 583111 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:18 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\management\management.properties; size: 14630 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:20 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\meta-index; size: 2126 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:18 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\net.properties; size: 4464 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\plugin.jar; size: 1922800 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:20 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:18 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\resources.jar; size: 3492575 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:20 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\rt.jar; size: 54502207 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:22 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\blacklist; size: 4054 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:18 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\blacklisted.certs; size: 1253 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\cacerts; size: 113484 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\java.policy; size: 2466 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\java.security; size: 34305 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\javaws.policy; size: 98 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\local_policy.jar; size: 3527 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:19 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\trusted.libraries; size: 0 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\security\US_export_policy.jar; size: 3026 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:18 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\sound.properties; size: 1210 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:19 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\tzdb.dat; size: 104311 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\lib\tzmappings; size: 8400 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\LICENSE; size: 40 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:12 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\README.txt; size: 46 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\release; size: 527 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:19 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 110114 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:12 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\THIRDPARTYLICENSEREADME.txt; size: 177094 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\jre\Welcome.html; size: 955 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\README.TXT; size: 1332 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:36:58 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\WQA.exe; size: 281600 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:36:58 CST 2018, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\WQA.vmoptions; size: 248 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:36:58 CST 2018, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\help.pdf; size: 1432777 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:36:58 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\commonbean.jar; size: 70952 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\h2-1.3.173.jar; size: 1574733 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\jcommon-1.0.21.jar; size: 323663 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\jfreechart-1.0.17-swt.jar; size: 79102 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\jfreechart-1.0.17.jar; size: 1544449 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\jxl.jar; size: 725735 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\synthetica.jar; size: 634989 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\syntheticaAluOxide.jar; size: 402848 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\windows_io_driver.jar; size: 210551 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\wqa_dev_modbus.jar; size: 71782 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\lib\wqa_system.jar; size: 146543 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\uninstall.exe; size: 220672 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:36:58 CST 2018, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\wqa_windows_from.jar; size: 574783 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:36:58 CST 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\inst_jre.cfg; size: 65 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:47 CST 2018, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\pref_jre.cfg; size: 77 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:47 CST 2018, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\i4jruntime.jar; size: 993406 bytes; exists: false
+       File options set to: [fileTime: Mon Dec 03 10:37:47 CST 2018, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\MessagesDefault; size: 32732 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\i4jparams.conf; size: 16553 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\stats.properties; size: 367 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\user.jar; size: 3370 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\i4jdel.exe; size: 35680 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\i4jinst.dll; size: 101888 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\i4j_extf_0_evh4jv.utf8; size: 32732 bytes; exists: false
+       Install file: D:\code\nahon\singlebranch6.0\WQA_OSA多量程\Publish\output\水质探头测试\.install4j\i4j_extf_1_evh4jv_qfwob9.png; size: 1623 bytes; exists: false
+       Execute action successful after 7461 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property linkDirectory: 
+       Property allUsers: true
+       Property unixSymlinks: true
+       Property addUninstaller: true
+       Property categories: Application
+       Property programGroupName: 水质测试软件
+       Property uninstallerMenuName: 水质测试软件 Uninstaller
+       Property unixMenuEntries: true
+       Property addDefaultLauncherLinks: true
+       Property failForSymlinksNotCreated: false
+       Property programGroupEntryConfigs: []
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\水质测试软件\WQA.lnk; size: 1390 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 03 10:37:47 CST 2018, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\水质测试软件\水质测试软件 Uninstaller.lnk; size: 1426 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 03 10:37:47 CST 2018, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 337 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property itemName: 水质测试软件 0.0.3.x
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 45 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

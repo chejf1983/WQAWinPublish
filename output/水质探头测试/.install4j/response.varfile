@@ -1,0 +1,8 @@
+#install4j response file for \u6C34\u8D28\u6D4B\u8BD5\u8F6F\u4EF6 0.0.3.x
+#Mon Dec 03 10:37:48 CST 2018
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.languageId=en
+sys.programGroupName=\u6C34\u8D28\u6D4B\u8BD5\u8F6F\u4EF6
+sys.adminRights$Boolean=true
+sys.installationDir=D\:\\code\\nahon\\singlebranch6.0\\WQA_OSA\u591A\u91CF\u7A0B\\Publish\\output\\\u6C34\u8D28\u63A2\u5934\u6D4B\u8BD5
